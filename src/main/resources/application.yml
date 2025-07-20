@@ -1,1 +1,11 @@
-spring.application.name=ivern-chat-app
+spring:
+  application:
+    name: ivern-chat-app
+  datasource:
+    url: jdbc:mysql://localhost:3306/chatdb
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: ivanren
+    password: ivanren
+  sql:
+    init:
+      mode: always
